@@ -9,6 +9,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 // Class used to start the JavaFX Application
+// I changed some Variables and Methods here Refactoring/Konuk
 public class HelloApplication extends Application {
 
     public static Stage stage;

@@ -9,6 +9,7 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 
 // Class that is used mainly to control certain assets of the Game like Machines, Upgrades and the Coin Score
+// I changed some Variables and Methods here Refactoring/Konuk
 public class Game {
     private static final int COFFEE_MACHINE_DURATION = 5;
     private static final int CAKE_MACHINE_DURATION = 5;
