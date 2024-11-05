@@ -11,7 +11,7 @@ import java.io.InputStream;
 
 // Function used to control all the methods used for Upgrades
 public class Upgrade {
-    private final int CoinsNeeded; // The coins needed to use/do the Upgrade
+    private final int coinsNeeded; // The coins needed to use/do the Upgrade
     private boolean alreadyUsedOnce; // Boolean that indicates if the Upgrade was already used or not
     private final String filenameUpgradeNotUsed; // Image of "deactivated" Upgrade
     private final String filenameUpgradeUsed; // Image of "activated" Upgrade
@@ -19,7 +19,7 @@ public class Upgrade {
 
     // Constructor
     Upgrade(int coinsNeeded, boolean alreadyUsedOnce, String filenameUpgradeNotUsed, String filenameUpgradeUsed, ImageView upgradeImageView){
-        this.CoinsNeeded = coinsNeeded;
+        this.coinsNeeded = coinsNeeded;
         this.alreadyUsedOnce = alreadyUsedOnce;
         this.filenameUpgradeNotUsed = filenameUpgradeNotUsed;
         this.filenameUpgradeUsed = filenameUpgradeUsed;
@@ -32,7 +32,7 @@ public class Upgrade {
     }
 
     public int getCoinsNeeded() {
-        return CoinsNeeded;
+        return coinsNeeded;
     }
 
     public String getFilenameUpgradeUsed() {
