@@ -21,6 +21,7 @@ import java.io.*;
 import java.net.URL;
 import java.util.*;
 
+// I changed some Variables and Methods here Refactoring/Konuk
 public class HelloController implements Initializable {
 
     // Assets of the Start Screen
