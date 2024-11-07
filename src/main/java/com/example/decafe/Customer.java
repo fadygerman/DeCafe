@@ -22,6 +22,13 @@ public class Customer {
     private ImageView coinImage; //picture of the money the customer is leaving behind
 
     private boolean alreadyOrdered; //boolean to see if the customer has already ordered
+    //MM20241106: introduce enum:
+    // enum Colour {
+    //      red,
+    //      green,
+    //      blue
+    // }
+    // private Colour face;
     private boolean green; //boolean for smiley
     private boolean yellow; //boolean for smiley
     private boolean red; //boolean for smiley
