@@ -1,6 +1,7 @@
 # DeCafé
 [![Java CI with Maven](https://github.com/fadygerman/DeCafe/actions/workflows/maven.yml/badge.svg)](https://github.com/fadygerman/DeCafe/actions/workflows/maven.yml)
-## Contributers
+## Contributers list
+
 - Jessica Draper
 - Fady German
 - Fadime Konuk
