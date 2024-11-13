@@ -23,7 +23,7 @@ import java.io.*;
 import java.net.URL;
 import java.util.*;
 
-// Class that is responsible for every action taken in JavaFX GUI (connected via fxml files)
+// I changed some Variables and Methods here Refactoring/Konuk
 public class HelloController implements Initializable {
 
     // Assets of the Start Screen
